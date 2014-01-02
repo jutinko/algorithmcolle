@@ -17,11 +17,12 @@ using namespace std;
 #define LOOPS(i, e) for(size_t i=0; i<e; ++i)
 #define FOR(i, s, e) for(int i=s; i<e; ++i)
 #define FORS(i, s, e) for(size_t i=s; i<e; ++i)
-#define VE vector<int>
-#define SZ size()
+#define VI vector<int>
+#define SZ(c) c.size()
 #define PB push_back
 #define PF printf
-#define PR pair<int, int>
+#define II pair<int, int>
+#define all(c) (c).begin(), (c).end()
 
 int main()
 {
