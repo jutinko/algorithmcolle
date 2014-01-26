@@ -11,6 +11,7 @@
 #include <stack>
 #include <map>
 #include <set>
+#include <cmath>
 using namespace std;
  
 #define LOOP(i, e) for(int i=0; i<e; ++i)
@@ -23,6 +24,7 @@ using namespace std;
 #define PF printf
 #define II pair<int, int>
 #define all(c) (c).begin(), (c).end()
+#define INF INT_MAX
 
 int main()
 {
